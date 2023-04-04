@@ -1,7 +1,3 @@
 function solution(strlist) {
-    let answer = [];
-    strlist.map((item)=>{
-        answer.push(item.length)
-    })
-    return answer;
+    return strlist.map((item)=> item.length);
 }
